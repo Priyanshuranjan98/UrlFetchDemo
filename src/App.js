@@ -9,7 +9,7 @@ function App() {
     <>
     <h1>Welcome TO shopping Mart</h1>
     {data &&
-        data.map((item) => {
+          data.map((item) => {
           return <p key={item.id}>{`id- ${item.id}, price-${item.price}`}
           <img className='image' src={item.image}/>
           </p>;
